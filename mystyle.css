@@ -1,0 +1,40 @@
+﻿body {
+    font-family: sans-serif;
+    position: relative;
+}
+
+.jumbotron {
+    background-image: url(img.jpg);
+    text-align: center;
+    padding-top: 35px;
+    height: 400px;
+}
+
+#appSummary {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.middle {
+    padding-left: 800px;
+}
+
+.myText {
+    margin-top: 60px;
+}
+
+
+
+#appStoreIcon {
+    width: 200px;
+}
+
+#footer {
+    background-color: lightseagreen;
+    padding-top: 150px;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 150px;
+}
