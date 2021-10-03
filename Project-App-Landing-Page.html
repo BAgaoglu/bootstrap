@@ -1,0 +1,161 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Project</title>
+
+    <link rel="stylesheet" href="mystyle.css">
+
+
+</head>
+
+<body  data-spy="scroll" data-target="#navbar" data-offset="150">
+
+    <nav class="navbar fixed-top navbar-expand navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MyApp</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Download the app</a>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="row row-cols-lg-auto g-3">
+                <div class="col-md-6">
+                    <!-- <label for="inputEmail4" class="form-label"></label>-->
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="col-md-6">
+                    <!--<label for="inputPassword4" class="form-label"></label>-->
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-outline-success">Login</button>
+                </div>
+            </form>
+
+
+        </div>
+    </nav>
+
+
+    <div class="jumbotron">
+        <div class="myText">
+            <h1 class="display-3">My Awesome App!</h1>
+            <p class="lead">This is why YOU should download this fantastic app!</p>
+            <hr class="m-y-2">
+            <p>Want to know more? Join our mailing list!</p>
+        </div>
+
+        <form class="middle row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+                <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+                <div class="input-group">
+                    <div class="input-group-text">@</div>
+                    <input type="text" class="form-control" id="yourEmail" placeholder="Your Email">
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <div class="container">
+        <div class="row" id="appSummary">
+            <h1>Why This App Is Awesome</h1>
+            <h5>Summary, once again, of your app's awesomeness</h5>
+        </div>
+
+
+
+        <div class="container" style="padding-top:60px;">
+            <div class=" row row-cols-1 row-cols-md-3 g-4" >
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="row">
+
+            <h2>Download the app!</h2>
+            <p class="lead">Really, why should I download this app?</p>
+
+            <p><a href=""><img id="appStoreIcon" src="App-Store-Icon.png"></a></p>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
